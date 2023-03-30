@@ -1,0 +1,199 @@
+@media screen and (max-width:767px) and (min-width:320px) {
+
+    /* Phần 1: Banner */
+    #banner {
+        width: 100% !important;
+    }
+
+    /* Phần 2: Navigation */
+    #nav {
+        width: 100% !important;
+    }
+
+    #nav .nav-info p,
+    #nav .nav-info span {
+        visibility: hidden;
+    }
+
+    .nav-info {
+        display: none !important;
+    }
+
+    .nav-item {
+        display: block;
+        width: 100%;
+        text-align: left;
+
+    }
+
+    .nav-item:hover {
+        background-color: #f7f7f7;
+    }
+
+    /* Phần 3: About*/
+    .col-lg-6.col-md-6.col-sm-12.personal {
+        padding: 0;
+    }
+
+    .bg-grey {
+        background-color: rgba(250, 248, 248, 0.86);
+        height: auto !important;
+        width: 100% !important;
+
+    }
+
+    #about .info li:nth-child(7) {
+        padding-right: 20px;
+    }
+
+    #about .info li:nth-child(7) a {
+        word-wrap: break-word;
+
+    }
+
+    /* Phần 4: Job*/
+    #job {
+        height: 2720px !important;
+        width: auto !important;
+    }
+
+    #job .container {
+        width: auto !important;
+    }
+
+    #job .container .job-info {
+        justify-content: center !important;
+        height: 1410px;
+    }
+
+    #study {
+        height: 500px !important;
+    }
+
+    #activate {
+        height: 400px !important;
+    }
+
+    #hobbi {
+        height: 300px !important;
+        position: relative;
+        top: 0 !important;
+    }
+
+    #lang {
+        height: 300px !important;
+    }
+
+    #skill {
+        position: relative;
+        top: 0 !important;
+        height: 400px !important;
+    }
+
+    /* Phần 5: certificate*/
+    #certificate {
+        width: 100% !important;
+    }
+
+    #certificate .container {
+        width: 100% !important;
+    }
+
+    #certificate h1.section-title {
+        padding: 30px 15px !important;
+    }
+
+    .certi-border {
+        border: none;
+        padding-left: 20px;
+    }
+
+    .col-border {
+        border: none;
+    }
+
+    .certi-img {
+        width: 100%;
+        height: 300px;
+    }
+
+    #certificate .row {
+        width: 100% !important;
+        margin: 0 auto;
+        padding: 0 !important;
+    }
+
+    /* Phần 6: Project*/
+    #project {
+        width: 100% !important;
+    }
+
+    #project .section-title {
+        padding-left: 15px;
+    }
+
+    #project .container,
+    #project .row {
+        width: 100% !important;
+    }
+
+    #project .row {
+        margin: 0 auto;
+    }
+
+    #project .card {
+        height: 100% !important;
+    }
+
+    #project .info-time,
+    #project .info-school,
+    #project .info-job {
+        text-align: center;
+    }
+
+    #project .describe-title,
+    #project .describe-model {
+        text-align: left;
+        padding: 10px 30px !important;
+    }
+
+    #project .card-parent {
+        margin: 10px 0 !important;
+
+    }
+
+    /* Phần 7: Footer */
+    #footer .container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .info-icon i,
+    .info-icon span {
+        margin: 0 2px;
+        font-size: 12px;
+    }
+
+    /* /////////////////////// */
+    /* Phần project: Digital-CV */
+    .timeline-content .icon-team {
+        width: 20% !important;
+    }
+
+    .goals-content {
+        border-right: none !important;
+        border-bottom: 20px solid rgb(6, 76, 252) !important;
+    }
+
+    .scopes-content {
+        border-bottom: 10px solid rgb(6, 76, 252) !important;
+        border-right: none !important;
+    }
+
+    .timeline-content {
+        margin: 0 !important;
+        border-top: none !important;
+        border-left: 20px solid rgb(6, 76, 252) !important;
+    }
+
+}

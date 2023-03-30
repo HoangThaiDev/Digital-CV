@@ -1,0 +1,625 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* CSS Phần 1:Banner */
+#banner {
+    height: 500px;
+    text-align: center;
+    background:
+        linear-gradient(rgba(0.36, 0.36, 0.36, 0.5), rgba(0.36, 0.36, 0.36, 0.5)), url(../images/Banner-Im.jpg) no-repeat 50%;
+    color: white;
+    background-size: cover;
+}
+
+/* Phần 1.1: Thông tin */
+#banner>.banner-info {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.banner-info h1 {
+    margin: 0;
+}
+
+/* CSS Phần 2: Navigation */
+.nav-item {
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    border-right: 2px solid rgba(218, 213, 213, 0.5) !important;
+    padding: 10px 30px;
+}
+
+.nav-item>i {
+    color: rgb(46, 145, 244);
+}
+
+.nav-item a {
+    line-height: 50px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.nav-info {
+    width: 350px;
+}
+
+.nav-info p {
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0 !important;
+    line-height: 20px;
+}
+
+.nav-info span {
+    color: gray;
+    font-size: 14px;
+}
+
+.nav-item:last-child {
+    border-right: 2px solid rgba(218, 213, 213, 0.5) !important;
+}
+
+.nav-item:first-child {
+    border-left: 2px solid rgba(218, 213, 213, 0.5) !important;
+}
+
+/* CSS Phần 3: About */
+.bg-grey {
+    background-color: rgba(250, 248, 248, 0.86);
+    height: 100%;
+}
+
+#about .col {
+    padding: 0 !important;
+}
+
+/* Phần 3.1: Mục tiêu nghề nghiệp */
+#target-info {
+    padding: 60px 30px 60px 60px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#target-info p,
+.mt-40 {
+    margin-top: 30px;
+}
+
+#target-info p,
+.mt-40 li {
+    color: gray;
+    list-style-type: none;
+}
+
+/* Phần 3.2: Mục tiêu nghề nghiệp */
+.personal{
+    padding-right: 0 !important;
+}
+#personal-info {
+    padding: 60px 0px 60px 60px;
+    background-color: #eeeeee;
+    height: 100%;
+}
+
+.mt-40 {
+    padding: 0;
+}
+
+.mt-40 li {
+    padding: 3px 0;
+}
+
+.mt-40 li span {
+    color: black;
+}
+
+.section-icon i {
+    color: rgb(46, 145, 244);
+    margin: 0 7px;
+}
+
+/* CSS Phần 4: Job */
+#job {
+    margin: 30px auto;
+}
+
+#job .container {
+    width: 1200px !important;
+}
+
+#job .container .row {
+    justify-content: flex-start !important;
+}
+
+.job-info:nth-child(2) {
+    height: 400px;
+    margin-top: 20px;
+}
+
+.job-content {
+    border: 1px solid rgb(221, 220, 220);
+    width: 380px !important;
+    margin: 20px 10px;
+}
+
+.col-lg-4 .info-content {
+    margin-bottom: 50px;
+}
+
+/* Phần 4.1.1 - 4.5.1 */
+#experiance,
+#study,
+#activate {
+    height: 700px !important;
+}
+
+#hobbi,
+#lang,
+#skill {
+    height: 400px !important;
+}
+
+.col-8 {
+    padding: 20px;
+}
+
+.col-4 {
+    padding: 20px 30px !important;
+}
+
+.info-title h4 {
+    margin: 15px 0 0 15px;
+    font-weight: 600;
+}
+
+.info-title i {
+    color: rgba(209, 209, 209, 0.86);
+    font-size: 1.5cm;
+}
+
+/* Phần 4.1.2: Thông tin nội dung,
+    Phần 4.2.2: Thông tin nội dung,
+    Phần 4.3.2: Thông tin nội dung */
+
+.info-content ul :not(.content-name) {
+    list-style: none;
+}
+
+.info-content ul li::marker {
+    color: rgb(46, 145, 244);
+    font-size: 25px;
+}
+
+.info-content ul li.content-name {
+    color: black;
+}
+
+.info-content ul li:nth-child(2) {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.info-content ul:nth-child(1) li:nth-child(2) span {
+    background-color: rgb(46, 145, 244);
+    color: white;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+
+.info-content ul:nth-child(1) {
+    margin-bottom: 35px;
+}
+
+.info-content ul li {
+    margin: 5px 0;
+    color: gray;
+    padding-left: 10px;
+}
+
+/* Phần 4.4: Sở thích */
+#hobbi .col-4 {
+    margin-left: -20px;
+}
+
+.hobbi-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.hobbi-icons {
+    text-align: center;
+    width: 70px;
+}
+
+.hobbi-icons i {
+    font-size: 20px;
+    color: rgb(94, 169, 244, 0.8);
+    border: 2px solid rgb(94, 169, 244, 0.5);
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.hobbi-icons p {
+    color: gray;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+/* Phần 4.5: Ngôn ngữ */
+.languae {
+    margin: 10px 0 20px 45px;
+    font-size: 14px;
+}
+
+.languae .languae-exp {
+    display: flex;
+    margin-top: 10px;
+}
+
+.languae .languae-exp span {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(74, 160, 245);
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.languae .languae-exp span:first-child {
+    margin-left: 0;
+}
+
+.languae .languae-exp span:last-child {
+    background-color: rgb(221, 220, 220);
+}
+
+.languae:last-child .languae-exp span:nth-child(2) {
+    background-color: rgb(221, 220, 220);
+}
+
+/* Phần 4.6: Kỹ năng */
+.skills {
+    margin: 10px 0 20px 45px;
+    font-size: 14px;
+}
+
+.skills .skill-exp {
+    display: flex;
+    margin-top: 10px;
+}
+
+.skills .skill-exp span {
+    width: 50px;
+    height: 2px;
+    background-color: rgb(221, 220, 220);
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+.skills .skill-exp span:first-child {
+    background-color: rgb(74, 160, 245);
+}
+
+/* Phần 5: Chứng chỉ - Giải thưởng */
+#certificate {
+    background-color: #F7F7F7;
+}
+
+#certificate .container {
+    padding: 0;
+}
+
+#certificate .container {
+    width: 1140px;
+    margin: 0 auto !important;
+}
+
+#certificate .container .row {
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+#certificate h1.section-title {
+    padding: 30px 0 !important;
+}
+
+.certi {
+    padding: 0 !important;
+}
+
+/* Phần 5.1.1: CSS Certi img */
+.certi-img {
+    width: 250px;
+    height: 125px;
+    padding: 0 10px;
+}
+
+.certi-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Phần 5.1.1: CSS Certi Content */
+.certi .certi-content {
+    padding-left: 20px;
+}
+
+.certi-content h5 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.certi-content p {
+    color: gray;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+#certificate .container .row:last-child {
+    padding-top: 30px;
+}
+
+/* Phần 5: Style CSS border */
+.certi-border {
+    border-left: 1px solid orangered;
+    padding-left: 20px;
+
+}
+
+.col-border {
+    border-bottom: 1px solid orangered;
+}
+#certificate .col-lg-6{
+    padding: 0;
+}
+
+.padding-certi {
+    padding-top: 40px;
+}
+
+/* Phần 6: Dự án  */
+#project .container {
+    width: 1140px;
+    margin: 50px auto;
+    font-size: 14px;
+    padding: 0;
+}
+
+#project .card {
+    height: 100% !important;
+}
+
+#project .section-title {
+    margin-bottom: 30px;
+}
+
+#project .info {
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#project .info .info-time {
+    background-color: rgb(67, 182, 244);
+    color: white;
+    padding: 5px 0 !important;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h5.card-title {
+    font-size: 12px;
+    color: grey;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+#project .info .info-school,
+#project .info .info-job {
+    color: gray;
+}
+
+#project .info .info-school i,
+#project .info .info-job i {
+    margin-right: 10px;
+}
+
+.describe {
+    color: grey;
+    font-size: 13px;
+}
+
+#project .col-lg-5,
+#project .col-lg-7,
+#project .col-lg-3,
+#project .col-lg-9 {
+    padding: 15px;
+}
+
+#project .info {
+    border-bottom: 1px solid rgb(221, 220, 220);
+    border-top: 1px solid rgb(221, 220, 220);
+}
+
+#project .describe {
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+
+#project .describe:last-child {
+    border: 0;
+}
+
+/* Phần 7: footer */
+#footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F7F7F7;
+    line-height: 80px;
+}
+#footer .container{
+    width: 400px;
+    margin: 0 auto !important;
+    color: rgb(197, 194, 194);
+}
+
+ .info-icon i {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.info-icon i {
+    margin: 0 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgb(67, 182, 244);
+}
+
+/* /////////////////////// */
+/* Phần project: Digital-CV */
+.project-cv{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project-cv .box-content1 {
+    margin-top: 1%;
+    border: 20px solid rgb(6, 76, 252);
+}
+.project-cv .box-content2 {
+    margin-top: 1%;
+    border: 20px solid rgb(6, 76, 252);
+    border-left: none;
+}
+.project-cv .goals-content {
+    border-right: 20px solid rgb(6, 76, 252);
+    border-bottom: 10px solid rgb(6, 76, 252);
+}
+.project-cv .scopes-content {
+    border-top: 10px solid rgb(6, 76, 252);
+    border-right: 20px solid rgb(6, 76, 252);
+}
+.project-cv .team-content {
+    border-bottom: 10px solid rgb(6, 76, 252);
+}
+.project-cv .primary-content {
+    border-top: 10px solid rgb(6, 76, 252);
+}
+/* Phần Public CSS Project */
+.goals-content,
+.team-content,
+.scopes-content,
+.primary-content,
+.timeline-content{
+    padding: 20px 20px 80px 20px !important;
+}
+.goals-content .card,
+.team-content .card,
+.scopes-content .card,
+.primary-content .card,
+.timeline-content .card{
+    border: none;
+}
+.goals-content .list-group-item,
+.team-content .list-group-item,
+.scopes-content .list-group-item,
+.primary-content .list-group-item,
+.timeline-content .list-group-item{
+    border: none ;
+    border-bottom: 1px solid #eeeeee;
+}
+.goals-content .card-header,
+.team-content .card-header,
+.scopes-content .card-header,
+.primary-content .card-header,
+.timeline-content .card-header{
+    border-bottom: 1px solid #eeeeee;
+    background-color: white;
+}
+.list-group-flush>.list-group-item:last-child{
+    border-bottom: 1px solid #eeeeee !important;
+}
+.goals-content .card-header,
+.team-content .card-header,
+.scopes-content .card-header,
+.primary-content .card-header,
+.timeline-content .card-header{
+    padding-left: 0;
+}
+.goals-content .card-header h5,
+.team-content .card-header h5,
+.scopes-content .card-header h5,
+.primary-content .card-header h5,
+.timeline-content .card-header h5{
+    color: rgb(6, 76, 252);
+    font-weight: 900;
+    margin: 0;
+}
+.goals-content .list-group-item .col-lg-3,
+.team-content .list-group-item .col-lg-3{
+    padding-left: 8%;
+}
+/* 
+Phần 1: Goals
+Phần 2: Team
+
+*/
+.list-group-flush>.list-group-item{
+    height: auto !important;
+}
+/* 
+Phần 1.1: Icon-Goals 
+Phần 2.1: Icon-Team
+*/
+.icon-goals,.icon-team,.icon-primary{
+    font-size: 24px;    
+}
+.icon-goals, .goals-title,
+.icon-team, .team-title{
+    padding: 0;
+}
+/*
+ Phần 1.: Goals-Title
+ Phần 2.: Team-Title 
+*/
+.goals-title p:nth-child(1),
+.team-title p:nth-child(1){
+    font-weight: bold;
+    margin:  0;
+    font-size: 14px;
+}
+.goals-title p:nth-child(2),
+.team-title p:nth-child(2){
+    font-size: 12px;
+}
+
+/* CSS từng phần tử riêng */
+.goals-title p,
+.team-content p,
+.primary-content p,
+.timeline-content p{
+    margin: 5px 0;
+}
+.scopes-content .col-lg-6 {
+    margin-top: 10px !important;
+}
+.icon-team p {
+    text-align: center;
+    color: white;
+    background: rgb(6,76,252);
+    border-radius: 100%;
+    padding: 5px;
+}
+.timeline-content .team-title {
+    padding-top: 5px;
+}

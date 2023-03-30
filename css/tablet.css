@@ -1,0 +1,127 @@
+@media screen and (max-width:1119px) and (min-width:768px)  {
+    
+    /* Phần 2: Navigation */
+    #nav .nav-info {
+        width: 50px;
+    }
+
+    #nav .nav-info p,
+    #nav .nav-info span {
+        visibility: hidden;
+    }
+
+    /* Phần 3: About */
+    #about{
+        height: auto !important;
+    }
+    #about .container-fluid{
+        height: 100% !important;
+    }
+    #about #personal-info{
+        height: 100% !important;
+    }
+    .col-lg-6.col-md-6.col-sm-12.personal {
+        padding: 0;
+    }
+
+    /* Phần 4: Job */
+    #job .container{
+        width: 900px !important;
+    }
+    #job .container .job-info {
+        justify-content: center !important;
+        height: 1410px;
+    }
+
+    #experiance,
+    #study,
+    #activate,
+    #hobbi,
+    #skill,
+    #lang {
+        width: 300px !important;
+    }
+
+    #experiance {
+        height: auto !important;
+    }
+
+    #study {
+        height: 450px !important;
+    }
+
+    #activate {
+        height: 400px !important;
+    }
+
+    #hobbi {
+        height: 300px !important;
+        position: relative;
+        top: -265px;
+    }
+
+    #skill {
+        position: relative;
+        top: -365px;
+        height: 400px !important;
+    }
+
+    #lang {
+        height: 250px !important;
+    }
+
+    /* Phần 5: certificate */
+    .certi-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .certi-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .certi-content h5 {
+        margin-top: 5px;
+    }
+    .certi-border{
+        padding-left: 0 !important;
+    }
+    /* Phần 6: Project */
+
+    #project .info-school {
+        text-align: left;
+        padding-left: 15px;
+    }
+
+    #project .info-job {
+        text-align: right;
+        padding: 0px 15px;
+    }
+
+    /* Phần Public CSS Project */
+    .goals-content .icon-goals,
+    .team-content .icon-team {
+        padding-left: 30px !important;
+    }
+
+    .goals-content {
+        border-right: none !important;
+        border-bottom: 20px solid rgb(6, 76, 252) !important;
+    }
+
+    .scopes-content {
+        border-bottom: 10px solid rgb(6, 76, 252) !important;
+        border-right: none !important;
+    }
+
+    .timeline-content {
+        margin: 0 !important;
+        border-top: none !important;
+        border-left: 20px solid rgb(6, 76, 252) !important;
+    }
+
+    .timeline-content .icon-team {
+        width: 10% !important;
+    }
+}
